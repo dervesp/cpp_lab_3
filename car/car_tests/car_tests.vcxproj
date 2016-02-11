@@ -157,10 +157,12 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Car.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\car.cpp" />
     <ClCompile Include="CarTests.cpp" />
     <ClCompile Include="car_tests.cpp" />
     <ClCompile Include="stdafx.cpp">
